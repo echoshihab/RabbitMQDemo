@@ -32,8 +32,11 @@ namespace BasicReceive
                     Console.WriteLine(" [x] Received {0}", message);
                 };
 
+                //autoAck means messages are marked for deletion as soon as they are delivered to consumer
+                //so what happens if consumer dies while message is being processed (more complex message)?
+                //message is lost,this issue is resolved in workqueues project
                 channel.BasicConsume(queue: "hello",
-                    autoAck: true,
+                    autoAck: true, 
                     consumer: consumer);
 
                 Console.WriteLine("Please enter to exit");
