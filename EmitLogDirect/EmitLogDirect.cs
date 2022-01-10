@@ -25,8 +25,12 @@ namespace EmitLogDirect
 
                 var body = Encoding.UTF8.GetBytes(message);
 
+                //if this routing key defined below  matches exactly the binding key as defined in 
+                //consumer, it will route to that queue
+                //if no queue is available with with the matching binding key
+                //message will be discarded
                 channel.BasicPublish(exchange: "direct_logs",
-                                    routingKey: severity,
+                                    routingKey: severity, 
                                     basicProperties: null,
                                     body: body);
 
