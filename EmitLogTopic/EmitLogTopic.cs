@@ -17,6 +17,10 @@ namespace EmitLogTopic
                 channel.ExchangeDeclare(exchange: "topic_logs",
                                         type: "topic");
 
+                //in topic exchange we can have routing keys like quick.orange.rabbit
+                //or quick.* where * indicates exactly one word
+                //or quick.# where # indicates zero or more words
+
                 var routingKey = (args.Length > 0) ? args[0] : "anonymous.info";
 
                 var message = (args.Length > 1)
