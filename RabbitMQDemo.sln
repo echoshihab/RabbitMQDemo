@@ -3,41 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSend", "BasicSend\BasicSend.csproj", "{D2BE5206-CBEC-46D3-9EAB-D45BFDEBD4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSend", "BasicSend\BasicSend.csproj", "{D2BE5206-CBEC-46D3-9EAB-D45BFDEBD4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicReceive", "BasicReceive\BasicReceive.csproj", "{215ECE8F-5D96-480C-88B5-D46D5B01FC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicReceive", "BasicReceive\BasicReceive.csproj", "{215ECE8F-5D96-480C-88B5-D46D5B01FC35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkQueues", "WorkQueues", "{07F46E1C-02DE-40B3-8D18-0D919F49CBD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "WorkQueues\Send.csproj", "{9F3C9495-CE65-4839-A430-D50A0A6F53C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "WorkQueues\Send.csproj", "{9F3C9495-CE65-4839-A430-D50A0A6F53C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{A829A357-E584-4F99-8ABB-24E7DE9A2C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{A829A357-E584-4F99-8ABB-24E7DE9A2C66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribe", "PublishSubscribe", "{98781B6A-F3D3-4F8A-9656-698A9A2B52EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{63692F86-0F22-4A1D-921F-359653309336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publisher\Publisher.csproj", "{63692F86-0F22-4A1D-921F-359653309336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{100284B0-8B9C-4DE9-8421-9A10A4C09A0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{100284B0-8B9C-4DE9-8421-9A10A4C09A0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{3916768C-8FDA-4ADF-AFF9-146012D4CF59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectRouting", "DirectRouting", "{5FEA97D7-C017-4346-AEC9-EB9C3B03E808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{21B25D65-C20A-49D6-A8A5-F06AC5978D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{21B25D65-C20A-49D6-A8A5-F06AC5978D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D85ABF14-197D-4FF4-A140-69AA5EDFB3DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D85ABF14-197D-4FF4-A140-69AA5EDFB3DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{6BAA8B90-3B1F-4A5D-9538-B24370B00890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{A04B0D27-7F5F-4E11-98E0-5FB60B908CA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{A04B0D27-7F5F-4E11-98E0-5FB60B908CA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{42D16410-C75C-415B-82A7-3A3E7642FAB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{42D16410-C75C-415B-82A7-3A3E7642FAB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RPC", "RPC", "{21C44BD1-E428-4CA6-966B-DBEAE8D7F85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServer", "RPCServer\RPCServer.csproj", "{0DC5E8C3-15F7-4814-A16C-7969986D3453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCServer", "RPCServer\RPCServer.csproj", "{0DC5E8C3-15F7-4814-A16C-7969986D3453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCClient", "RPCClient\RPCClient.csproj", "{93534883-1D34-4557-B3CC-84A9D21B3309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCClient", "RPCClient\RPCClient.csproj", "{93534883-1D34-4557-B3CC-84A9D21B3309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublisherConfirms", "PublisherConfirms", "{A47F0698-A3A9-4B22-A2A4-C67B669ACA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherConfirms", "PublisherConfirms\PublisherConfirms.csproj", "{4B0C8D95-9275-4559-9793-24AF9D9F7181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,10 @@ Global
 		{93534883-1D34-4557-B3CC-84A9D21B3309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93534883-1D34-4557-B3CC-84A9D21B3309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93534883-1D34-4557-B3CC-84A9D21B3309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0C8D95-9275-4559-9793-24AF9D9F7181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0C8D95-9275-4559-9793-24AF9D9F7181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0C8D95-9275-4559-9793-24AF9D9F7181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0C8D95-9275-4559-9793-24AF9D9F7181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +118,7 @@ Global
 		{42D16410-C75C-415B-82A7-3A3E7642FAB9} = {6BAA8B90-3B1F-4A5D-9538-B24370B00890}
 		{0DC5E8C3-15F7-4814-A16C-7969986D3453} = {21C44BD1-E428-4CA6-966B-DBEAE8D7F85C}
 		{93534883-1D34-4557-B3CC-84A9D21B3309} = {21C44BD1-E428-4CA6-966B-DBEAE8D7F85C}
+		{4B0C8D95-9275-4559-9793-24AF9D9F7181} = {A47F0698-A3A9-4B22-A2A4-C67B669ACA1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE8FA5EC-EBDB-462F-AF67-286A59677DEA}
