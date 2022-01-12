@@ -41,7 +41,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCClient", "RPCClient\RPCC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublisherConfirms", "PublisherConfirms", "{A47F0698-A3A9-4B22-A2A4-C67B669ACA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherConfirms", "PublisherConfirms\PublisherConfirms.csproj", "{4B0C8D95-9275-4559-9793-24AF9D9F7181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublisherConfirms", "PublisherConfirms\PublisherConfirms.csproj", "{4B0C8D95-9275-4559-9793-24AF9D9F7181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{635E1510-57BE-415E-B1A1-1BE0E885AD02}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\10_Topic_Demo5Consumer.bat = Scripts\10_Topic_Demo5Consumer.bat
+		Scripts\11_RPC_Demo6Client.bat = Scripts\11_RPC_Demo6Client.bat
+		Scripts\11_RPC_Demo6Server.bat = Scripts\11_RPC_Demo6Server.bat
+		Scripts\12_PublisherConfirms.bat = Scripts\12_PublisherConfirms.bat
+		Scripts\1_Basic_Demo1Consumer.bat = Scripts\1_Basic_Demo1Consumer.bat
+		Scripts\2_Basic_Demo1Publisher.bat = Scripts\2_Basic_Demo1Publisher.bat
+		Scripts\3_TaskQueue_Demo2Publisher.bat = Scripts\3_TaskQueue_Demo2Publisher.bat
+		Scripts\4_TaskQueue_Demo2Worker.bat = Scripts\4_TaskQueue_Demo2Worker.bat
+		Scripts\5_Fanout_Demo3Consumer.bat = Scripts\5_Fanout_Demo3Consumer.bat
+		Scripts\6_Fanout_Demo3Publisher.bat = Scripts\6_Fanout_Demo3Publisher.bat
+		Scripts\7_Direct_Demo4Consumer.bat = Scripts\7_Direct_Demo4Consumer.bat
+		Scripts\8_Direct_Demo4Publisher.bat = Scripts\8_Direct_Demo4Publisher.bat
+		Scripts\9_Topic_Demo5Publisher.bat = Scripts\9_Topic_Demo5Publisher.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

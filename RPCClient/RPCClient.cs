@@ -76,6 +76,7 @@ namespace RPCClient
 
                 Console.WriteLine(" [.] Got '{0}'", response);
                 rpcClient.Close();
+                Console.ReadLine();
             }
         }
     }

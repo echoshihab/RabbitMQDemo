@@ -38,8 +38,8 @@ namespace EmitLogDirect
 
             }
 
-            Console.WriteLine("Press [enter] to exit.");
-            Console.ReadLine();
+            //Console.WriteLine("Press [enter] to exit.");
+            //Console.ReadLine();
         }
     }
 }

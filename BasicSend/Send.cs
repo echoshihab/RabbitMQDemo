@@ -21,6 +21,7 @@ namespace BasicSend
                 string message = "Hello World!";
                 var body = Encoding.UTF8.GetBytes(message);
 
+                //messages are routed to the queue with the name specified by routing_key, if it exists.
                 channel.BasicPublish(exchange: "",
                                     routingKey: "hello",
                                     basicProperties: null,
